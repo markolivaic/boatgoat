@@ -1,0 +1,123 @@
+.calnav {
+  user-select: none;
+  display: flex;
+  align-items: center;
+  place-content: space-between;
+  padding: 1.18rem;
+  width: 100%;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 21.29%,
+      rgba(255, 255, 255, 1) 33.07%,
+      rgba(255, 255, 255, 1) 33.07%
+    ),
+    url("../public/imgs/background.png");
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  .address {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+      color: #ffffff;
+    }
+
+    svg {
+      margin-left: 2rem;
+      cursor: pointer;
+    }
+  }
+
+  .date {
+    margin-left: -23rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    p {
+      margin-right: 1.7rem;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.75px;
+      color: rgba(24, 29, 50, 0.7);
+      padding: 0.35rem 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+
+    svg {
+      margin-right: 1.7rem;
+      width: 0.75rem;
+      cursor: pointer;
+    }
+
+    h4 {
+      width: 10rem;
+      margin-left: 12rem;
+      position: absolute;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.15px;
+      color: #181d32;
+    }
+  }
+
+  .search_sw {
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 1.1rem;
+      margin-right: 1.5rem;
+      cursor: pointer;
+    }
+
+    .switch {
+      display: flex;
+      align-items: center;
+      padding: 0.4rem 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 0.5rem;
+      margin-right: 1rem;
+      position: relative;
+
+      .sw_active_box {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        border-radius: 0.5rem;
+        left: 0;
+      }
+
+      .sw_month {
+        margin-right: 2rem;
+      }
+
+      p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.75px;
+        color: rgba(24, 29, 50, 0.7);
+        cursor: pointer;
+      }
+
+      .sw_active {
+        color: black;
+      }
+    }
+  }
+}

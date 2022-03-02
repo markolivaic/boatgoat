@@ -1,0 +1,40 @@
+.progressBarSplit {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  place-content: space-evenly;
+  position: relative;
+
+  .bar {
+    width: 100%;
+    div {
+      width: 100%;
+      div div {
+        border-radius: 50px 0 0 50px !important;
+      }
+    }
+  }
+
+  .barFull {
+    div div div {
+      border-radius: 50px !important;
+    }
+  }
+
+  .lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+
+    .line {
+      width: 0.2em;
+      height: 100%;
+    }
+  }
+}

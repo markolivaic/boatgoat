@@ -1,0 +1,57 @@
+.progressField {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+
+  .parent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+    margin: 1rem 0;
+
+    .title {
+      display: flex;
+      align-items: center;
+      place-content: space-around start;
+
+      svg {
+        margin-left: 1em;
+      }
+
+      h5 {
+        font-weight: 400;
+        font-size: 1.05em;
+        margin-right: auto;
+      }
+    }
+
+    .bar {
+      width: 90%;
+      display: flex;
+      align-items: center !important;
+      place-content: space-between;
+
+      p {
+        margin-left: auto;
+        margin-right: 1.5em;
+        opacity: 0.8;
+      }
+
+      div div div {
+        border-radius: 50px 0 0 50px !important;
+      }
+    }
+
+    .barFull {
+      div div div {
+        border-radius: 50px !important;
+      }
+    }
+  }
+
+  .children {
+    width: 100%;
+  }
+}

@@ -1,0 +1,100 @@
+.activity {
+  border: 2px solid transparent;
+  padding: 1.5rem;
+  user-select: none;
+  .top {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+
+    .top_details {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+
+      h5 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1em;
+        line-height: 24px;
+      }
+
+      p {
+        margin-top: 0.5em;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+      }
+    }
+
+    .top_icons {
+      display: flex;
+
+      svg {
+        margin-left: 2rem;
+        z-index: 20;
+        cursor: pointer;
+      }
+
+      .delete {
+        &:hover {
+          path {
+            fill: red;
+          }
+        }
+
+        &:active {
+          color: darkred;
+        }
+      }
+
+      .share {
+        &:hover {
+          path {
+            fill: #7a9eff;
+          }
+        }
+
+        &:active {
+          color: #7a9eff;
+        }
+      }
+    }
+  }
+
+  p {
+    margin: 0.7rem 0;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+
+  .money {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-right: 0.5rem;
+    }
+
+    p {
+      color: green;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.75px;
+      opacity: 1;
+    }
+  }
+}
+
+.activity_clicked {
+  border: 2px solid #7ea6f5 !important;
+}

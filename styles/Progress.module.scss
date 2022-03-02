@@ -1,0 +1,50 @@
+.progress {
+  width: 49%;
+  padding: 1.5rem;
+  border-radius: 1em;
+  box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.03),
+    0px 4.22059px 9.34559px rgba(0, 0, 0, 0.0195477),
+    0px 1.75302px 3.88168px rgba(0, 0, 0, 0.015),
+    0px 0.634032px 1.40393px rgba(0, 0, 0, 0.0104523);
+
+  .top {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    .topText {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      place-content: space-between;
+
+      h5 {
+        font-size: 1.1em;
+        font-weight: 500;
+      }
+
+      p {
+        font-size: 1.1em;
+        opacity: 0.8;
+      }
+    }
+
+    .topDates {
+      display: flex;
+      align-items: center;
+      place-content: space-between;
+      width: 100%;
+      p {
+        opacity: 0.8;
+      }
+    }
+  }
+
+  .bottom {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+}

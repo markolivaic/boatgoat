@@ -1,0 +1,33 @@
+.activities {
+  width: 49%;
+  border-radius: 1em;
+  box-shadow: 0px 14px 31px rgba(0, 0, 0, 0.03),
+    0px 4.22059px 9.34559px rgba(0, 0, 0, 0.0195477),
+    0px 1.75302px 3.88168px rgba(0, 0, 0, 0.015),
+    0px 0.634032px 1.40393px rgba(0, 0, 0, 0.0104523);
+
+  .title_top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    place-content: space-between;
+    padding: 1.5rem;
+
+    h5 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 24px;
+    }
+
+    svg {
+      width: 0.9em;
+      height: 0.9em;
+      cursor: pointer;
+    }
+  }
+
+  .activities_holder {
+    width: 100%;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "dvi-kosulje",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ramonak/react-progress-bar": "^3.2.1",
+    "axios": "^0.21.2",
+    "framer-motion": "^4.1.17",
+    "next": "11.1.0",
+    "next-redux-wrapper": "^7.0.4",
+    "nprogress": "^0.2.0",
+    "react": "17.0.2",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-detect-click-outside": "^1.1.1",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.1",
+    "redux": "^4.1.1",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.38.2",
+    "simplebar-react": "^2.3.5",
+    "styled-components": "^5.3.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0"
+  }
+}
