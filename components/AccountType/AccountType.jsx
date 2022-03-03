@@ -28,7 +28,7 @@ export default function AccountType() {
             whileTap={{ scale: 1 }}
             onClick={() => router.push("/registerCompany")}
           >
-            Osoba
+            Putnik
           </motion.button>
         </div>
         <div className={styles.links}>
