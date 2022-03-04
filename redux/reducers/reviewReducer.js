@@ -11,7 +11,7 @@ const initialState = {
       time: "15:00",
       location: "Hrvatska",
       review:
-        "Odlično vozi te dobro komunicira. Veoma nam se svidjela performansa te ćemo definitivno zvati opet.",
+        "Odlično vozi te dobro komunicira. Ugodna atmosfera u vozilu.",
     },
     {
       type: "Company",
@@ -21,7 +21,7 @@ const initialState = {
       date: "15.02.2022",
       time: "15:00",
       location: "Hrvatska",
-      review: "Vožnja veoma ok, pogotovo za cijenu.",
+      review: "Vožnja veoma dobra, dobar omjer cijene i kvalitete.",
     },
     {
       type: "Company",
@@ -31,7 +31,7 @@ const initialState = {
       date: "03.02.2022",
       time: "15:00",
       location: "Hrvatska",
-      review: "Najgori vozač uživo.",
+      review: "Najgori vozač u gradu.",
     },
     {
       type: "User",
@@ -41,7 +41,7 @@ const initialState = {
       date: "04.02.2022",
       time: "19:00",
       location: "Hrvatska",
-      review: "Veoma loš klijent.",
+      review: "Veoma loš klijent, ne bi se više nikad trebao voziti brodom.",
     },
     {
       type: "User",
@@ -51,7 +51,7 @@ const initialState = {
       date: "19.02.2022",
       time: "15:00",
       location: "Hrvatska",
-      review: "Brat.",
+      review: "Ugodan putnik.",
     },
     {
       type: "User",
