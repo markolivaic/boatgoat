@@ -15,7 +15,7 @@ const initialState = {
       date: "03/03/2022",
       time: "22:00",
       description:
-        "Vidjeli smo vaše vožnje i željeli bismo da nastupate kod nas.",
+        "Vidjeli smo vaše vožnje i željeli bismo da nas vozite u četvrtak.",
       price: "1,000 HRK",
       startDay: 3,
       endDay: 4,
@@ -31,7 +31,7 @@ const initialState = {
       author: "Biograd na Moru, Hrvatska",
       date: "07/03/2022",
       time: "17:00",
-      description: "Želimo da dođete kod nas voziti 07.10",
+      description: "Želimo da nas dođete voziti 07.10",
       price: "650 HRK",
       startDay: 7,
       endDay: 8,
@@ -48,7 +48,7 @@ const initialState = {
       date: "14/03/2022",
       time: "19:00",
       description:
-        "Poštovani, vaše prethodne vožnje su nas zadivili te bismo željeli surađivati sa vama.",
+        "Poštovani, vaše prethodne vožnje su nas zadivile te bismo željeli surađivati sa vama.",
       price: "800 HRK",
       startDay: 14,
       endDay: 17,
