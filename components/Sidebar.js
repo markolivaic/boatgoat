@@ -71,7 +71,7 @@ export default function Sidebar() {
               setActive("/home");
             }}
           >
-            <img src="/imgs/logobrate.png" alt="logo" style={{width: "300%", borderRadius: "50%"}} />
+            <img src="/imgs/logobrate.png" alt="logo" style={{width: "600%", borderRadius: "50%"}} />
           </a>  
         </Link>
         <Link href="/home">
